@@ -1,5 +1,4 @@
 import './App.css';
-import React, { useState, useEffect } from 'react'
 import IntroSection from "./components/IntroSection"
 import AboutSection from "./components/AboutSection"
 import ResumeSection from "./components/ResumeSection"
