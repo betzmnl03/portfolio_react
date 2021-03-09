@@ -20,7 +20,7 @@ export default function AboutSection() {
             <div >
                 <p className="title text" >A LITTLE ABOUT ME</p>
                 <img className="mypic mb-4" src="./pic2.jpg" alt="mypic" data-aos="fade-in"/>
-                <p className="description" >Hey! My name is Betsy and I'm a <strong> Web Application Developer</strong> with a passion for full stack development. I'm currently enrolled in a bootcamp. I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.</p>
+                <p className="description" >Hey! My name is Betsy and I'm a multidisciplinary and solution-driven <strong> Full Stack Developer</strong>.Former Software Tester with 2.5 years of experience in Manual Testing. I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.</p>
                 <p className="description" >When I'm not on the computer, I enjoy cooking, reading and petting dogs. </p>
             </div>
             <div id="skills" className="skills" >

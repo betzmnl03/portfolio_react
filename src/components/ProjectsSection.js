@@ -24,10 +24,17 @@ const images = [
       src: "projects/pm_tool.png",
       title: 'Project Management Tool',
       width: '30%',
-      description:`An E-Commerce app for clothing retailer to sell their product 
-      ReactJs front end Client built with  Material Ui, Semantic UI and Bootstrap for front end
-      Rails API for Backend`,
-      technology:["Ruby on Rails", "ReactJS", "Bootstrap","MaterialUI","SemanticUI", "PosgreSQL"],
+      description:"A Project Management tool with CRUD functionalities  that allows the users to \
+      1. Create, edit and delete Projects \
+      2. Create, edit and delete Tasks \
+      3. Add tags to the projects \
+      4. Track tasks and project Status \
+      5. Assign Members to projects and tasks \
+      6. Have discussions \
+      7. Create comments \
+      8. Mark proejct as Favourite \
+      9. Start new discussion and post comments",
+      technology:["Ruby on Rails", "HTML","CSS", "Bootstrap", "PosgreSQL"],
       github:"https://github.com/betzmnl03/pm_tool",
       app:"https://betsys-pm-tool.herokuapp.com/"
     },
@@ -35,45 +42,40 @@ const images = [
       src: "projects/idea_factory.png",
       title: 'IDEA FACTORY',
       width: '30%',
-      description:`An E-Commerce app for clothing retailer to sell their product 
-      ReactJs front end Client built with  Material Ui, Semantic UI and Bootstrap for front end
-      Rails API for Backend`,
-      technology:["Ruby on Rails", "ReactJS", "Bootstrap","MaterialUI","SemanticUI", "PosgreSQL"],
+      description:`Idea Factory is an application that allowd the user to “collect a large number of ideas” with
+      capabilities to create, like, follow and post comments. Full Stack web application built using Ruby
+      on Rails, PostgreSQL, Bootstrap, HTML, CSS.`,
+      technology:["Ruby on Rails", "Bootstrap","HTML","CSS", "PosgreSQL"],
       github:"https://github.com/betzmnl03/ideas_crud",
       app:"https://betsys-idea-factory.herokuapp.com/"
     },
     {
-      src: "projects/blog_on_rails.png",
-      title: 'BLOG ON RAILS',
+      src: "projects/portfolio.png",
+      title: 'MY PORTFOLIO',
       width: '30%',
-      description:`An E-Commerce app for clothing retailer to sell their product 
-      ReactJs front end Client built with  Material Ui, Semantic UI and Bootstrap for front end
-      Rails API for Backend`,
-      technology:["React"],
-      github:"https://github.com/betzmnl03/blog_on_rails_2",
+      description:`My personal portfolio created with ReactJs and UI libraries such as SemanticUI, Material UI, Bootstrap `,
+      technology:["React","SemanticUI","MaterialUI","Bootstrap"],
+      github:"https://github.com/betzmnl03/portfolio_react",
       app:""
     },
     {
       src: "projects/team_picker.png",
       title: 'TEAM PICKER',
       width: '30%',
-      description:`An E-Commerce app for clothing retailer to sell their product 
-      ReactJs front end Client built with  Material Ui, Semantic UI and Bootstrap for front end
-      Rails API for Backend`,
-      technology:["Ruby on Rails", "ReactJS", "Bootstrap","MaterialUI","SemanticUI", "PosgreSQL"],
-      github:"https://github.com/betzmnl03/e_commerce_app",
+      description:`The Team Picker app allows the user to store cohorts information, randomizing teams and assigning members randomly`,
+      technology:["NodeJS", "Express","Bootstrap","Knex.js", "PosgreSQL"],
+      github:"https://github.com/betzmnl03/teampicker",
       app:""
     },
     {
       src: "projects/hangman.png",
       title: 'HANGMAN',
       width: '30%',
-      description:`An E-Commerce app for clothing retailer to sell their product 
-      ReactJs front end Client built with  Material Ui, Semantic UI and Bootstrap for front end
-      Rails API for Backend`,
-      technology:["Ruby on Rails", "ReactJS", "Bootstrap","MaterialUI","SemanticUI", "PosgreSQL"],
+      description:`Hangman is a classic word game in which you must guess as many secret words as you can.
+      Developed using jQuery, Bootstrap, HTML, CSS and JavaScript.`,
+      technology:["jQuery","Bootstrap","HTML","CSS","Javascript"],
       github:"https://github.com/betzmnl03/betsys-hangman",
-      app:""
+      app:"https://betsys-hangman.vercel.app/"
     },
   ];
 
