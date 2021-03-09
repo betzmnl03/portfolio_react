@@ -1,24 +1,49 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useState, useEffect } from 'react'
+import IntroSection from "./components/IntroSection"
+import AboutSection from "./components/AboutSection"
+import ResumeSection from "./components/ResumeSection"
+import ProjectsSection from "./components/ProjectsSection"
+import ContactSection from "./components/ContactSection"
+import NavigationOther from "./components/NavigationOther"
+import Footer from "./components/Footer"
+import Grid from "@material-ui/core/Grid"
 
 function App() {
+
+
   return (
+    <>
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id="content">
+        <Grid container direction="column">
+          <Grid item>
+          <NavigationOther/>
+        </Grid>
+        <Grid item>
+          <IntroSection/>
+        </Grid>
+        <Grid item>
+          <AboutSection/>
+        </Grid>
+        <Grid item>
+          <ResumeSection/>
+        </Grid>
+        <Grid item>
+          <ProjectsSection/>
+        </Grid>
+        <Grid item>
+          <ContactSection/>
+        </Grid>
+        <Grid item>
+          <Footer/>
+        </Grid>
+        </Grid>
+      </div>
     </div>
+
+  </>
   );
 }
 
