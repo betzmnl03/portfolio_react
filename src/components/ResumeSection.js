@@ -1,8 +1,6 @@
-import Grid from "@material-ui/core/Grid"
 import { Button,Icon } from 'semantic-ui-react'
-import emailjs from 'emailjs-com';
 import Aos from "aos"
-import React, { useState, useEffect } from 'react'
+import React, {useEffect } from 'react'
 import "aos/dist/aos.css";
 
 // const ButtonExampleButton = () => <Button>Grab a copy</Button>

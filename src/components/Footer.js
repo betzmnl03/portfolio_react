@@ -1,7 +1,5 @@
-
-import {Component} from "react"
 import Aos from "aos"
-import React, { useState, useEffect } from 'react'
+import React, {useEffect } from 'react'
 import "aos/dist/aos.css";
 import Grid from "@material-ui/core/Grid"
 import Link from "@material-ui/core/Link"

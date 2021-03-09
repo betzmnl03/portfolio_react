@@ -2,19 +2,11 @@
 import skillsImage from "../skillsImage"
 import Grid from "@material-ui/core/Grid"
 import Aos from "aos"
-import React, { useState, useEffect } from 'react'
+import React, {useEffect } from 'react'
 import "aos/dist/aos.css";
 
 export default function AboutSection() {
  
-    // const divStyle={
-    //     overflowY: 'scroll',
-    //     border:'1px solid red',
-    //     width:'500px',
-    //     float: 'left',
-    //     height:'500px',
-    //     position:'relative'
-    //   };
     useEffect(() => {
         Aos.init({duration: 500})
     }, [])
@@ -38,7 +30,7 @@ export default function AboutSection() {
                 {skillsImage.map((skill,i)=>{
                     return(
                     <div className="col-xs-2 col-sm-2 col-md-2 skill-icon img-fluid">
-                        <img className="img-responsive" src={skill.image} id={skill.title}/>
+                        <img className="img-responsive" src={skill.image} id={skill.title} alt="project_image"/>
                         <p>{skill.title}</p>
                     </div>
                     )

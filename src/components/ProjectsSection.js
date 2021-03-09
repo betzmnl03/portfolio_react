@@ -3,11 +3,10 @@ import { makeStyles } from '@material-ui/core/styles';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Typography from '@material-ui/core/Typography';
 import { Button, Header, Image, Modal,Icon } from 'semantic-ui-react'
-// import { Header } from 'semantic-ui-react'
 import Aos from "aos"
-import React, { useState, useEffect } from 'react'
+import React, {useEffect } from 'react'
 import "aos/dist/aos.css";
-// import Fragment from "react/Fragment"
+
 
 const images = [
     {
@@ -272,7 +271,7 @@ export default function ProjectsSection() {
                     
                        
                       <Modal.Actions className="text-center">
-                      <a href={images[id].github} target="_blank">
+                      <a href={images[id].github} target="_blank" rel="noreferrer">
                         <Button icon labelPosition='left' color="black">
                           <Icon name="github"/>
                           View Source
@@ -280,7 +279,7 @@ export default function ProjectsSection() {
                         </Button>
                         </a>
                         {images[id].app.length>0 ? 
-                        <a href={images[id].app} target="_blank">
+                        <a href={images[id].app} target="_blank" rel="noreferrer">
                         <Button icon labelPosition='left' color="black">
                         <Icon name="globe"/>
                           View App

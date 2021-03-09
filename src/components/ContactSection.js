@@ -1,8 +1,8 @@
 import Aos from "aos"
-import React, { useState, useEffect } from 'react'
+import React, {useEffect } from 'react'
 import "aos/dist/aos.css";
 import Grid from "@material-ui/core/Grid"
-import { Button, Checkbox, Form ,Icon, Image,Modal,Header} from 'semantic-ui-react'
+import { Button,Icon,Modal} from 'semantic-ui-react'
 import EmailForm from "./EmailForm"
 import FlashMessage from 'react-flash-message'
 
@@ -12,11 +12,6 @@ export default function ContactSection() {
     }, [])
     const [open, setOpen] = React.useState(false)
     const[message, showMessage] = React.useState(false)
-    // setState({ showMessage: false });
-
-    // close=()=>{
-    //     setOpen(false)
-    // }
     return (
         <div>
           <Grid container>

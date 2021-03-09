@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import * as emailjs from 'emailjs-com'
-import { Button, Checkbox, Form } from 'semantic-ui-react'
+import { Button, Form } from 'semantic-ui-react'
 
 
 
@@ -22,7 +22,7 @@ class EmailForm extends Component {
       email:email,
       message: message,
      }     
-    //  sendForm('service_c3i8cyh', 'template_hipkuys', e.target, "user_HHqJHk8rOz3fs8z04U5z8")
+  
      emailjs.send(
         'service_c3i8cyh',
         'template_hipkuys',
