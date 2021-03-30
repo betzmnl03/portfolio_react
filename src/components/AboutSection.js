@@ -4,6 +4,8 @@ import Grid from "@material-ui/core/Grid"
 import Aos from "aos"
 import React, {useEffect } from 'react'
 import "aos/dist/aos.css";
+import { Image } from 'semantic-ui-react'
+import ResumeSection from "./ResumeSection"
 
 export default function AboutSection() {
  
@@ -15,34 +17,44 @@ export default function AboutSection() {
         <>
         <Grid container>
             <Grid item sm={12}>
-        <div className="techskills" >
-             <section className="aboutme" id="about" >
-            <div >
+            <div id="about">
                 <p className="title text" >A LITTLE ABOUT ME</p>
                 <img className="mypic mb-4" src="./pic2.jpg" alt="mypic" data-aos="fade-in"/>
                 <p className="description" >Hey! My name is Betsy and I'm a multidisciplinary and solution-driven <strong> Full Stack Developer</strong>.Former Software Tester with 2.5 years of experience in Manual Testing. I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.</p>
                 <p className="description" >When I'm not on the computer, I enjoy cooking, reading and petting dogs. </p>
             </div>
-            <div id="skills" className="skills" >
+            <div id="skills" className="skills" style={{
+                marginTop:"10%"
+            }}>
             <p className="title text mt-4"  data-aos="flip-down" >SKILLS</p>
 
-            <div className="row" data-aos="flip-down" style={{overflowX : 'auto',fontSize: '14px'}}>
-                {skillsImage.map((skill,i)=>{
-                    return(
-                    <div className="col-xs-2 col-sm-2 col-md-2 skill-icon img-fluid">
-                        <img className="img-responsive" src={skill.image} id={skill.title} alt="project_image"/>
-                        <p>{skill.title}</p>
-                    </div>
-                    )
-                })}
-                
-            </div>
+            <Grid container justify="center" >
+                <Grid item alignItems="center" sm={6}>
+                        <div className="row" data-aos="flip-down" >
+                        <Image.Group  size='tiny' className="skill-icon" spaced="right" >
+                        {skillsImage.map((skill,i)=>{
+                            return(
+                                <>
+                            <Image src={skill.image} id={skill.title} alt="project_image" className="skill-icon image ml-3" label={skill.title}/>
+                            
+                            </>
+                            )
+                        })}
+                                        
+                                    
+                        </Image.Group>
+
+                            
+                        </div>
+            </Grid>
+            </Grid>
         </div>
-        </section>
-        </div>
+       
 
         </Grid>
+        
         </Grid>
+
         </>
     )
 }

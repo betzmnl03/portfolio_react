@@ -11,12 +11,12 @@ import "aos/dist/aos.css";
 const images = [
     {
       src: "projects/e_commerce.png",
-      title: 'BM E-Commerce Application',
+      title: 'B/U Online Clothing Store',
       width: '30%',
-      description:`An E-Commerce app for clothing retailer to sell their product 
-      ReactJs front end Client built with  Material Ui, Semantic UI and Bootstrap for front end
-      Rails API for Backend`,
-      technology:["Ruby on Rails", "ReactJS", "Bootstrap","MaterialUI","SemanticUI", "PosgreSQL"],
+      description:`An Online for clothing store for retailers to sell their product.
+      ReactJs front end Client built with Semantic UI and Bootstrap,
+      Rails API for Backend with PostgreSQL, Stripe API and Google Maps/Places API `,
+      technology:["Ruby on Rails", "ReactJS", "Bootstrap","SemanticUI", "PosgreSQL","Stripe","Google Maps"],
       github:"https://github.com/betzmnl03/e_commerce_app",
       app:""
     },
@@ -89,15 +89,16 @@ const images = [
     image: {
       position: 'relative',
       height: 350,
-      [theme.breakpoints.down('xs')]: {
+      [theme.breakpoints.down('sm')]: {
         width: '100% !important', // Overrides inline-style
         // maxWidth: "100%",
         height: 100,
+        margin:"2%"
         
       },
       
-      marginLeft: 22.5,
-      marginRight: 20,
+      marginLeft: 20,
+      marginRight: 10,
 
       '&:hover, &$focusVisible': {
         zIndex: 1,
@@ -189,16 +190,22 @@ export default function ProjectsSection() {
     return (
 
         <>
-      <div id="projects">
-        <Grid container style={{
-          backgroundColor:"black"
-        }}
+        <div style={{
+          backgroundColor:"black",
+          
+        }}>
+      <div id="projects" style={{
+        margin:"2%"
+      }} >
+        <Grid container 
         justify="center"
         alignItems="center"
-       
         >
-            <Grid item >
-              <Header as="h1" textAlign="center" className="projects_text mt-4" >PROJECTS</Header>
+            <Grid item>
+              <p textAlign="center" className="resumetext" style={{
+                marginTop:"20%",
+                color:"white"
+              }}>PROJECTS</p>
               </Grid>
             
                 <div className={classes.root}>
@@ -300,6 +307,7 @@ export default function ProjectsSection() {
       }
       </div>
         </Grid>
+        </div>
         </div>
         </>
     )

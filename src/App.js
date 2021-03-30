@@ -21,15 +21,21 @@ function App() {
           <NavigationOther/>
         </Grid>
         <Grid item>
-          <IntroSection/>
+          <IntroSection />
         </Grid>
-        <Grid item>
+        <Grid item alignItems="center" style={{
+          margin:"10%"
+        }} >
           <AboutSection/>
         </Grid>
-        <Grid item>
+        <Grid item style={{
+          marginTop:"10%"
+        }} >
           <ResumeSection/>
         </Grid>
-        <Grid item>
+        <Grid item style={{
+          marginTop:"5%"
+        }}>
           <ProjectsSection/>
         </Grid>
         <Grid item>

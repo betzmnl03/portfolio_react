@@ -10,7 +10,7 @@ export default function ResumeSection() {
     }, [])
 
     return (
-            <section>
+            
                 <div id="resume" className="resume start mt-4">
                     <div className="resumeoverlay">
                             <div>
@@ -32,7 +32,7 @@ export default function ResumeSection() {
                             </div>
                     </div>
                 </div>
-            </section>
+            
 
     )
 }

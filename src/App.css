@@ -87,8 +87,11 @@ section {
 /* ======= INTRODUCTION ======= */
 
 #intro {
+  
     background: url("./images/background_image.png");
-    height: 100%;
+    
+    /* height: 100vh; */
+    width: 100vw;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -111,7 +114,9 @@ section {
     /* W3C */
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#cc000000', endColorstr='#66000000', GradientType=0);
     /* IE6-9 */
-    height: 750px;
+    /* position: relative;
+    bottom: 9%; */
+    height: 100vh;
     background-attachment: fixed;
 }
 
@@ -128,7 +133,7 @@ section {
 
 .intro-content {
     position: absolute;
-    padding: 20% 0 5% 0;
+    padding: 25% 0 5% 0;
     left: 0;
     right: 0;
     z-index: 0;
@@ -179,15 +184,14 @@ a.fa.fa-angle-double-down.page-scroll{
   background-color: #f0f0f0;
 }
 #skills{
-  padding-top: 5px;
-  margin-bottom: 0;
+ 
   background-color: #f0f0f0;
 }
 .skill-icon {
   padding-bottom: 15px;
   height: 120px;
 }
-.skill-icon img {
+.skill-icon.image {
   margin: 0 auto;
   width: 75px;
   height: auto;
@@ -197,7 +201,7 @@ a.fa.fa-angle-double-down.page-scroll{
   -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out
 }
-.skill-icon img {
+.skill-icon.image {
     margin: 0 auto;
     width: 75px;
     height: auto;
@@ -207,7 +211,7 @@ a.fa.fa-angle-double-down.page-scroll{
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
 }
-.skill-icon img:hover {
+.skill-icon.image:hover {
   -webkit-filter: none;
   filter: none;
 }
@@ -225,12 +229,7 @@ a.fa.fa-angle-double-down.page-scroll{
   background-color:  #336691 !important;
   color: #dddddd !important;
 }
-    #about{
-      width: 50vw;
-      height: 100vh;
-      margin-top: 2%;
-      margin-left: 25%;
-    }
+   
     #projects{
       margin-top: 4%;
     }
@@ -263,9 +262,9 @@ a.fa.fa-angle-double-down.page-scroll{
   }
 
 
-  .resume.start{
+  /* .resume.start{
     margin-top: 20em !important;
-  }
+  } */
   #resume {
     /* margin-top: 8em; */
     background: url("./images/background_image.png");
@@ -393,6 +392,38 @@ a.fa.fa-angle-double-down.page-scroll{
 }
 
 
+@media screen and (max-width: 600px) {
+  #resume {
+    margin-top: 100%!important;
+  }
+  #contact{
+    margin-top: 180%!important;
+    margin-left: 50%;
+  }
+  
+}
+
+@media screen and (max-width: 960px) and (min-width: 600px){
+  #resume {
+    margin-top: 10%!important;
+    margin-bottom: 10%!important;
+  
+  }
+  #contact{
+    margin-top: 30%!important;
+  }
+  #footer{
+    margin-top: 30%!important;
+  }
+}
+
+@media screen and (max-width: 1200px)and (min-width: 960px) {
+  #resume {
+    margin-top: 10%!important;
+    margin-bottom: 10%!important;
+  }
+
+}
 
 .footer{
   /* position: relative;

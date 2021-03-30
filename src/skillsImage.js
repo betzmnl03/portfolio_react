@@ -8,16 +8,16 @@ const skillsImage = [
         title: "NodeJs"
     },
     {
-        image: "skills/rails.png",
-        title: ""
+        image: "skills/rails.png"
+       
     },
     {
         image: "skills/psql.png",
         title: "PostgreSQL"
     },
     {
-        image: "skills/js.png",
-        title: ""
+        image: "skills/js.png"
+       
     },
     {
         image: "skills/ruby.png",
@@ -25,16 +25,16 @@ const skillsImage = [
     },
 
     {
-        image: "skills/html.png",
-        title: ""
+        image: "skills/html.png"
+        
     },
     {
         image: "skills/bootstrap.png",
         title: "Bootstrap"
     },
     {
-        image: "skills/css.png",
-        title: ""
+        image: "skills/css.png"
+       
     },
 
     {

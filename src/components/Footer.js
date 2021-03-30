@@ -17,7 +17,8 @@ export default function Footer() {
               <Grid container 
             direction="column" 
             className="footer"
-            alignItems="center">
+            alignItems="center"
+            id="footer">
                 <Grid item className="mt-4">
                          
                             <Link href="#intro" data-aos="fade-in">

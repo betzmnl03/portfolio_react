@@ -14,10 +14,6 @@ export default function IntroSection() {
                 <h1 className="name">Hi, I'm Betsy Manuel </h1>
                 <p class="subtitle">Full Stack Developer</p>
                 <br/>
-                    <div className="mt-4">
-                    <a className="fa fa-angle-double-down page-scroll" href="#about"></a>
-                 
-                    </div>
                 </div>
 
 
