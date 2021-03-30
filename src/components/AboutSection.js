@@ -39,7 +39,7 @@ export default function AboutSection() {
                         {skillsImage.map((skill,i)=>{
                             return(
                                 <>
-                            <Image src={skill.image} id={skill.title} alt="project_image" className="skill-icon image ml-3" label={skill.title}/>
+                            <Image src={skill.image} id={skill.title} alt="project_image" className="skill-icon image ml-3 mr-3" label={skill.title}/>
                             
                             </>
                             )
