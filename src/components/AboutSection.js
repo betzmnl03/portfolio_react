@@ -23,7 +23,7 @@ export default function AboutSection() {
             }}>
                 <p className="title text" >A LITTLE ABOUT ME</p>
                 <img className="mypic mb-4" src="./pic2.jpg" alt="mypic" data-aos="fade-in"/>
-                <p className="description m-4" >Hey! My name is Betsy and I'm a multidisciplinary and solution-driven <strong> Full Stack Developer</strong>.Former Software Tester with 2.5 years of experience in Manual Testing. <br/> I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.</p>
+                <p className="description m-4" >Hey! My name is Betsy. I'm a multidisciplinary and solution-driven <strong> Full Stack Developer</strong>.Former Embedded Systems Tester with 2.5 years of experience in Manual Testing. <br/> I have always had a passion for technology and enjoy problem solving. I chose Web Application Development as my career path as it gives me the opportunity to solve complex real-worldproblems with innovative and intuitive software solutions. I find great joy in being able to see my work in action and directly impact users in a positive way</p>
                 <p className="description m-4" >When I'm not on the computer, I enjoy cooking, reading and petting dogs. </p>
             </div>
             <div id="skills" className="skills" style={{

@@ -6,7 +6,7 @@ import Nav from "react-bootstrap/Nav";
 
 export default function Navigation() {
   return (
-    <div>
+    <div id="nav-section">
       {/* <nav className="navbar navbar-dark navbar-expand-lg fixed-top navbar-other">
                 <a className="navbar-brand" href="#intro">
                     
@@ -16,7 +16,7 @@ export default function Navigation() {
                 </button> */}
 
 
-                <Navbar className="navbar navbar-dark fixed-top navbar-other" >
+                <Navbar className="navbar navbar-dark fixed-top navbar-other">
                   <Grid container justify="space-between" >
                     <Grid item>
                       <Navbar.Brand href="#intro"><img src="logo1.png" alt="logo"/><span className="name">BETSY MANUEL</span></Navbar.Brand>
@@ -33,8 +33,8 @@ export default function Navigation() {
                       fontFamily: "Lato sans-serif monospace",
                       fontSize:"110%",
                      }}>
-                          <Nav.Link href="#about" className="nav-link about" >ABOUT</Nav.Link>
-                          <Nav.Link href="#skills" className="nav-link skills">SKILLS</Nav.Link>
+                          <Nav.Link href="#about" className="nav-link about ml-4" >ABOUT</Nav.Link>
+                          
                           <Nav.Link href="#resume" className="nav-link resume">RESUME</Nav.Link>
                           <Nav.Link href="#projects" className="nav-link project">PROJECTS</Nav.Link>
                           <Nav.Link href="#contact" className="nav-link contact">CONTACT</Nav.Link>

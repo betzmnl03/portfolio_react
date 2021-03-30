@@ -92,7 +92,7 @@ const images = [
       [theme.breakpoints.down('sm')]: {
         width: '100% !important', // Overrides inline-style
         // maxWidth: "100%",
-        height: 100,
+        height: 150,
         margin:"2%"
         
       },

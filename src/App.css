@@ -57,11 +57,11 @@ section {
     animation: fadeInDown 1s ease-in both;
   }
 
-.subtitle{
+/* .subtitle{
     margin: 70px;
     animation: fadeInUp 800ms ease-in both;
     
-}
+} */
 
 
 
@@ -125,7 +125,18 @@ section {
   
 }
 
+a.fa.fa-angle-double-down.page-scroll{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.555);
+  animation: fadeIn 1s ease-in both 1.4s;
+}
 
+.fa.fa-angle-double-down.page-scroll:hover{
+  color: white;
+  -webkit-animation: bounce 2s infinite forwards;
+  animation: bounce 2s infinite forwards;
+  animation-play-state: running; 
+}
 
 .title.text{
   color:#336691;

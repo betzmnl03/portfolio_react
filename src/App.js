@@ -14,13 +14,16 @@ function App() {
   return (
     <>
     
-    <div className="App">
+    <div className="App" style={{
+      width:"100%",
+      overflow:"hidden"
+    }}>
       <div id="content">
         <Grid container direction="column">
           <Grid item>
           <NavigationOther/>
         </Grid>
-        <Grid item sm={12}>
+        <Grid item sm={12} >
           <IntroSection />
         </Grid>
         <Grid item alignItems="center"  >
