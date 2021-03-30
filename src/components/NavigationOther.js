@@ -19,7 +19,7 @@ export default function Navigation() {
                 <Navbar className="navbar navbar-dark fixed-top navbar-other" >
                   <Grid container justify="space-between" >
                     <Grid item>
-                      <Navbar.Brand href="#intro"><img src="logo_bm.png" alt="logo"/><span className="name">BETSY MANUEL</span></Navbar.Brand>
+                      <Navbar.Brand href="#intro"><img src="logo1.png" alt="logo"/><span className="name">BETSY MANUEL</span></Navbar.Brand>
                     </Grid>
                     <Grid item style={{
                       marginTop:"1%"
