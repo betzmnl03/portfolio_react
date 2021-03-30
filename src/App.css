@@ -25,12 +25,13 @@
  }
 
 
-
-.navbar-collapse{ 
-  text-align: center;
-  font-family: Lato sans-serif monospace;
-  text-transform: uppercase;
-}
+/* 
+.navbar-text{ 
+  
+  
+  
+  color: #dddddd !important;  
+} */
 .navbar-nav li a {
     color: #dddddd !important;   
     
@@ -42,30 +43,10 @@
 .name{
   color: #dddddd;
 }
-.nav-link.ml-auto.about{
+.nav-link.about,.nav-link.project,.nav-link.resume,.nav-link.skills,.nav-link.contact{
   animation: fadeInDown 1s ease-in both;
 }
-.nav-link.projects{
-  animation: fadeInDown 1s ease-in both;
-}
-.nav-link.resume{
-  animation: fadeInDown 1s ease-in both;
-}
-.nav-link.contact{
-  animation: fadeInDown 1s ease-in both;
-}
-.underline{
-  border-bottom: 1px solid transparent;
-  transition: all 500ms ease-in-out;
-  transform: scaleX(0);
-}
-.underline:hover{
-  border-color: #dddddd;
-  transform: scaleX(1);
-}
-a:active{
-  border-color: #dddddd;
-}
+
 
 section {
   padding-top: 70px;

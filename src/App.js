@@ -20,12 +20,10 @@ function App() {
           <Grid item>
           <NavigationOther/>
         </Grid>
-        <Grid item>
+        <Grid item sm={12}>
           <IntroSection />
         </Grid>
-        <Grid item alignItems="center" style={{
-          margin:"10%"
-        }} >
+        <Grid item alignItems="center"  >
           <AboutSection/>
         </Grid>
         <Grid item style={{

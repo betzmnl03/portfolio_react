@@ -193,9 +193,11 @@ export default function ProjectsSection() {
         <div style={{
           backgroundColor:"black",
           
+          
         }}>
       <div id="projects" style={{
-        margin:"2%"
+        margin:"2%",
+        paddingTop: "60px"
       }} >
         <Grid container 
         justify="center"
@@ -203,8 +205,9 @@ export default function ProjectsSection() {
         >
             <Grid item>
               <p textAlign="center" className="resumetext" style={{
-                marginTop:"20%",
-                color:"white"
+                
+                color:"white",
+                
               }}>PROJECTS</p>
               </Grid>
             

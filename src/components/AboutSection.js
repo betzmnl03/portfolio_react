@@ -17,14 +17,18 @@ export default function AboutSection() {
         <>
         <Grid container>
             <Grid item sm={12}>
-            <div id="about">
+            <div id="about" style={{
+                 paddingTop: "68px",
+                 
+            }}>
                 <p className="title text" >A LITTLE ABOUT ME</p>
                 <img className="mypic mb-4" src="./pic2.jpg" alt="mypic" data-aos="fade-in"/>
-                <p className="description" >Hey! My name is Betsy and I'm a multidisciplinary and solution-driven <strong> Full Stack Developer</strong>.Former Software Tester with 2.5 years of experience in Manual Testing. I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.</p>
-                <p className="description" >When I'm not on the computer, I enjoy cooking, reading and petting dogs. </p>
+                <p className="description m-4" >Hey! My name is Betsy and I'm a multidisciplinary and solution-driven <strong> Full Stack Developer</strong>.Former Software Tester with 2.5 years of experience in Manual Testing. <br/> I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.</p>
+                <p className="description m-4" >When I'm not on the computer, I enjoy cooking, reading and petting dogs. </p>
             </div>
             <div id="skills" className="skills" style={{
-                marginTop:"10%"
+                 paddingTop: "68px",
+                 
             }}>
             <p className="title text mt-4"  data-aos="flip-down" >SKILLS</p>
 

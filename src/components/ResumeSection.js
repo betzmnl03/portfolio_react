@@ -11,7 +11,10 @@ export default function ResumeSection() {
 
     return (
             
-                <div id="resume" className="resume start mt-4">
+                <div id="resume" className="resume start mt-4" style={{
+                    paddingTop: "60px",
+                    
+               }}>
                     <div className="resumeoverlay">
                             <div>
                                 <div className="resume-content" data-aos="fade-out">
