@@ -18,7 +18,7 @@ const images = [
       Rails API for Backend with PostgreSQL, Stripe API and Google Maps/Places API `,
       technology:["Ruby on Rails", "ReactJS", "Bootstrap","SemanticUI", "PosgreSQL","Stripe","Google Maps"],
       github:"https://github.com/betzmnl03/e_commerce_app",
-      app:""
+      app:"https://vimeo.com/531507670"
     },
     {
       src: "projects/pm_tool.png",
