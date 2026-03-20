@@ -35,7 +35,8 @@ const images = [
       8. Mark proejct as Favourite
       9. Start new discussion and post comments`,
       technology:["Ruby on Rails", "HTML","CSS", "Bootstrap", "PosgreSQL"],
-      github:""
+      github:"",
+      app:""
     },
     {
       src: "projects/idea_factory.png",
