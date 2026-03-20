@@ -24,16 +24,16 @@ const images = [
       src: "projects/pm_tool.png",
       title: 'Project Management Tool',
       width: '30%',
-      description:"A Project Management tool with CRUD functionalities  that allows the users to \
-      1. Create, edit and delete Projects \
-      2. Create, edit and delete Tasks \
-      3. Add tags to the projects \
-      4. Track tasks and project Status \
-      5. Assign Members to projects and tasks \
-      6. Have discussions \
-      7. Create comments \
-      8. Mark proejct as Favourite \
-      9. Start new discussion and post comments",
+      description:`A Project Management tool with CRUD functionalities  that allows the users to
+      1. Create, edit and delete Projects 
+      2. Create, edit and delete Tasks
+      3. Add tags to the projects
+      4. Track tasks and project Status
+      5. Assign Members to projects and tasks
+      6. Have discussions
+      7. Create comments
+      8. Mark proejct as Favourite
+      9. Start new discussion and post comments`,
       technology:["Ruby on Rails", "HTML","CSS", "Bootstrap", "PosgreSQL"],
       github:""
     },
