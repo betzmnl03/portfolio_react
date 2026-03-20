@@ -35,8 +35,7 @@ const images = [
       8. Mark proejct as Favourite \
       9. Start new discussion and post comments",
       technology:["Ruby on Rails", "HTML","CSS", "Bootstrap", "PosgreSQL"],
-      github:"https://github.com/betzmnl03/pm_tool",
-      app:"https://betsys-pm-tool.herokuapp.com/"
+      github:""
     },
     {
       src: "projects/idea_factory.png",
@@ -47,7 +46,7 @@ const images = [
       on Rails, PostgreSQL, Bootstrap, HTML, CSS.`,
       technology:["Ruby on Rails", "Bootstrap","HTML","CSS", "PosgreSQL"],
       github:"https://github.com/betzmnl03/ideas_crud",
-      app:"https://betsys-idea-factory.herokuapp.com/"
+      app:""
     },
     {
       src: "projects/portfolio.png",
