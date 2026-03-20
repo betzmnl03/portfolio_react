@@ -5,7 +5,6 @@ import Aos from "aos"
 import React, {useEffect } from 'react'
 import "aos/dist/aos.css";
 import { Image } from 'semantic-ui-react'
-import ResumeSection from "./ResumeSection"
 
 export default function AboutSection() {
  
